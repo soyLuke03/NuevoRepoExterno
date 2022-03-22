@@ -10,12 +10,13 @@ public class Decimal extends Numero{
 	private static final int VALOR_MAXIMO = 100001;
 	
 	
-	
+	/*
+	 * Para crear numeros sin parte decimal ya están los enteros
 	public Decimal(int value, Base base) {
 		super(value, base);
 		setValorDecimal(0);
 	}
-
+	*/
 	
 	public Decimal(int value, int valorDecimal, Base base) {
 		super(value, base);

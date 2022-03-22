@@ -5,7 +5,11 @@ public class CollectionUtils {
 
 
 	
-	
+	/**
+	 * Este método se utiliza para mostrar por pantalla un array de <b>objs</b>.
+	 * @param objs
+	 * @return Devuelve un StringBuilder con el array.
+	 */
 	public static String printCol(Object[] objs) {
 		
 		StringBuilder sb = new StringBuilder();
@@ -15,7 +19,11 @@ public class CollectionUtils {
 		return sb.toString();
 	}
 	
-	
+	/**
+	 * Este método sirve para eliminar los <b>nulls</b> del array que recibe como parámetro
+	 * @param col
+	 * @return Devuelve el mismo array pero eliminando los Nulls.
+	 */
 	public static Object[] deleteNulls(Object[] col) {
 		int cont=0;
 		if (col!=null) {

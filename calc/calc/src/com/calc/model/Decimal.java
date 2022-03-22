@@ -27,6 +27,7 @@ public class Decimal extends Numero{
 		setValorDecimal(valorDecimal);
 	}
 	
+
 	@Override
 	protected void setValorEntero(int valorEntero) {
 		
@@ -54,7 +55,10 @@ public class Decimal extends Numero{
 		this.valorEntero=valorEntero;
 	}
 	
-	
+	/**
+	 * Este método se utiliza para establecer un valor decimal.
+	 * @param valorDecimal
+	 */
 	private void setValorDecimal(int valorDecimal) {
 		
 		String aCadena = String.valueOf(valorDecimal);

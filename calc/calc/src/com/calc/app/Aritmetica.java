@@ -8,7 +8,12 @@ public class Aritmetica {
 
 	public Aritmetica() {}
 
-	
+	/**
+	 * Este método es para <b>sumar decimales</b>.
+	 * @param n1 = El numero 1
+	 * @param n2 = El numero 2
+	 * @return Este metodo devuelve el resultado de esta suma.
+	 */
 	public Numero suma(Numero n1, Numero n2) {
 		Numero resultado = null;
 		
@@ -36,7 +41,12 @@ public class Aritmetica {
 		
 		return resultado;
 	}
-	
+	/**
+	 * Este método es para <b>restar decimales</b>.
+	 * @param n1 = El numero 1
+	 * @param n2 = El numero 2
+	 * @return Este metodo devuelve la suma de <b>n1</b> y la variable <b>sustraer</b>.
+	 */
 	public Numero resta(Numero n1, Numero n2) {
 		Numero sustraer = null;
 		if (n2 instanceof Decimal) {
@@ -48,7 +58,11 @@ public class Aritmetica {
 		return suma(n1, sustraer);
 	}
 	
-	
+	/**
+	 * Este método es para <b>calcular la media entre los numeros</b>.
+	 * @param Como parámetros tiene un <b>Array de objects</b>.
+	 * @return Como resultado devuelve un objeto de tipo Numero.
+	 */
 	public Numero calcularMedia(Object[] objs) {
 		Numero acumulador = new Entero(0);
 		

@@ -8,7 +8,7 @@ public abstract class Numero {
 	protected Base base;
 	
 	
-	
+
 	public Numero(int value, Base base) {
 		super();
 		this.base=base;
@@ -20,6 +20,10 @@ public abstract class Numero {
 		this(valor, Base.DECIMAL);
 	}
 	
+	/**
+	 * Método que sirve para obtener el valor entero de un número.
+	 * @param integer valorEntero
+	 */
 	protected abstract void setValorEntero(int valorEntero);
 
 

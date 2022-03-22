@@ -1,8 +1,4 @@
-package com.calc.app;
-
-import com.calc.model.Decimal;
-import com.calc.model.Entero;
-import com.calc.model.Numero;
+package com.calc.model;
 
 public class Aritmetica {
 

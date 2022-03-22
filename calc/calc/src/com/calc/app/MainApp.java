@@ -3,6 +3,7 @@ package com.calc.app;
 import static com.calc.utils.CollectionUtils.deleteNulls;
 import static com.calc.utils.CollectionUtils.printCol;
 
+import com.calc.model.Aritmetica;
 import com.calc.model.Decimal;
 import com.calc.model.Entero;
 import com.calc.model.Numero;

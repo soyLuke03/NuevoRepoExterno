@@ -21,7 +21,7 @@ public class CollectionUtils {
 	
 	/**
 	 * Este método sirve para eliminar los <b>nulls</b> del array que recibe como parámetro
-	 * @param col
+	 * @param col (Es un array)
 	 * @return Devuelve el mismo array pero eliminando los Nulls.
 	 */
 	public static Object[] deleteNulls(Object[] col) {

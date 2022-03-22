@@ -59,6 +59,8 @@ public class Decimal extends Numero{
 	/**
 	 * Este método se utiliza para establecer un valor decimal.
 	 * @param valorDecimal
+	 * 
+	 * @exception: si recibe un número binario puede dar errores si es distinto de 1 y 0.
 	 */
 	private void setValorDecimal(int valorDecimal) {
 		
